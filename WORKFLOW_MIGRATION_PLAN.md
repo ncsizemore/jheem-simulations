@@ -89,7 +89,8 @@ No longer needed for:
 
 - [x] Create jheem-simulations repo
 - [x] Upload ryan-white-state-v1.0.0 release
-- [ ] Create generate-native-data workflow for state-level model
-- [ ] Test workflow with state-level model
-- [ ] Upload ryan-white-v1.0.0 release (MSA-level, when ready)
+- [x] Create generate-native-data workflow for state-level model
+- [ ] Create state-level container image
+- [ ] Test workflow with state-level model (verify known issues in workflow comments)
+- [ ] Upload ryan-white-v1.0.0 release (MSA-level, ~$1 S3 download cost)
 - [ ] Update existing MSA workflow to use GitHub Releases
