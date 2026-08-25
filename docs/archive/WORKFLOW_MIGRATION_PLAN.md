@@ -4,7 +4,7 @@
 
 Migrate simulation data from S3 to GitHub Releases to eliminate data transfer costs during GitHub Actions workflows.
 
-**Repo:** https://github.com/ncsizemore/jheem-simulations
+**Repo:** https://github.com/CIPHER-Epi/jheem-simulations
 
 ## Architecture Decisions
 
@@ -62,7 +62,7 @@ Downloads from GitHub Releases, mounts to container's expected path:
     mkdir -p simulations/ryan-white/prerun/${{ matrix.state }}
 
     gh release download ${{ inputs.simulation_release }} \
-      --repo ncsizemore/jheem-simulations \
+      --repo CIPHER-Epi/jheem-simulations \
       --pattern "${{ matrix.state }}_*.Rdata" \
       --dir ./tmp-download
 
